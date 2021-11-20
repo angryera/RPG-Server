@@ -13,7 +13,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.json({ message: "MyFarmPet Chicken Farm" });
 });
-
+app.post("/Hello", (req, res) => {
+  res.json({ message: "MyFarmPet Chicken Farm" });
+});
 require("./app/routes/customer.routes.js")(app);
 
 require("./app/routes/chickenfarm.routes.js")(app);
