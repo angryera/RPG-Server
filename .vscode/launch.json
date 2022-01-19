@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\WSServer\\unity-websocket-client-nodejs-server-master\\server\\index.js"
+            "program": "${workspaceFolder}\\WSServer\\index.js"
         }
     ]
 }
